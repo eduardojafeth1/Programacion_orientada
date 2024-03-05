@@ -88,3 +88,43 @@ class Patio:
         
     def getDescripcion(self):
         return self.__descripcion
+    
+
+class casa:
+   
+    def __init__(self,descripcion):
+        self.__descripcion=descripcion
+        self.__cuartos=[]
+        self.__salas=[]
+        self.__patios=[]
+        self.__estado="disponible"
+        
+    def setDescripcion(self,descripcion):
+        self.__descripcion=descripcion
+        
+    def getDescripcion(self):
+        return self.__descripcion
+    
+    def setCuartos(self,cuarto):
+        self.__cuartos.append(cuarto)
+        
+    def getCuartos(self):
+        return self.__cuartos
+    
+    def setSalas(self,sala):
+        self.__salas.append(sala)
+        
+    def getSalas(self):
+        return self.__salas
+    
+    def setPatios(self,patio):
+        self.__patios.append(patio)
+        
+    def getPatios(self):
+        return self.__patios
+    
+    def setEstado(self,estado):
+        self.__estado=estado
+        
+    def getEstado(self):
+        return self.__estado

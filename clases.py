@@ -22,3 +22,6 @@ def imprimir(*args):
 newCar=car()
 newCar.start()
 imprimir(1,2,3,3,4)
+
+
+
