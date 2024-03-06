@@ -19,7 +19,7 @@ flag=True
 ordenes=[]
 while flag:
     print ("**********************************************************")
-    print("1. Igresar orden")
+    print("1. Ingresar orden")
     print("2. Leer ordenes")
     print("3. Editar orden")
     print("4. Cancelar orden")
